@@ -1,0 +1,6 @@
+source("C:\\Users\\alexara\\Documents\\GitHub\\ProgrammingAssignment2\\cachematrix.R")
+m<-rbind(c(1, -1/4), c(-1/4, 1)) 
+cm<-makeCacheMatrix(m)
+data<-cacheSolve(cm)
+m
+data
